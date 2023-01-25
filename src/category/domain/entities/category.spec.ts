@@ -156,7 +156,7 @@ describe("Category unit tests", () => {
     });
   });
 
-  describe('(de)activatinga categories', () => {
+  describe('(de)activating categories', () => {
     test('activates inactive category', () => {
       let category = new Category({
         name: "Movie",
